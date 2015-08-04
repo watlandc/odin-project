@@ -1,0 +1,83 @@
+div#nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+div#nav ul {
+  margin: 0;
+}
+div ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+div ul li {
+  display: inline;
+}
+div#nav ul li {
+  float: right;
+  padding: 1em 1em 1em 0;
+}
+div ul li a {
+  text-decoration: none;  
+  color: #616161;
+  font-family: Arial, Helvetica, serif;
+  font-weight: 100;
+  font-size: .75em;
+}
+div ul li a:hover {
+  text-decoration: underline;
+}
+div#body img {
+  display: block;
+  margin: 8em auto auto auto;
+  padding-bottom: 1.4em;
+}
+div#body form input[type="text"] {
+  display: block;
+  margin: 0 auto 0 auto;
+  font-size: 1em;
+}
+input:focus, button:focus {
+  border: 1px solid blue;
+  outline-width: 0;
+}
+button:active {
+  border: 1px solid blue;
+}
+div#buttons {
+  width: 100%;
+  text-align: center;
+}
+div#body form div#buttons input[type="submit"] {
+  display: inline-block;
+  margin: 1.5em .5em 0 .5em;
+  font-weight: 600;
+  font-size: .6em;
+  -webkit-appearance: button;
+  padding: .7em;
+  font-family: Arial, Helvetica, serif;
+  border-radius: 5px;
+  -webkit-border-radius: 2px;
+  background-color: #F5F5F5;
+  Border: 1px solid lightgrey;
+}
+div#foot {
+  width: 100%;
+  background-color: lightgrey;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+}
+div#foot ul#foot_left li {
+  float: left;
+  padding: .5em 0 .5em 1em;
+  margin: 0;
+}
+div#foot ul#foot_right li {
+  float: right;
+  padding: .5em 1em .5em 0;
+  margin: 0;
+}
